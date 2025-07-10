@@ -219,6 +219,7 @@ For questions about implementation or customization, please open an issue with:
 - Database configuration
 - Sample of any error messages
 - Description of your specific use case
+- **TO CUSTOMIZE, AND IMPLEMENT, THIS CODE FOR YOUR SPECIFIC RADIO STATION USE-CASE I'M HAPPY TO DISCUSS COMMERCIAL TERMS**
 
 ---
 
