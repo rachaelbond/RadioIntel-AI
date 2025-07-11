@@ -685,10 +685,10 @@ function getGenre($conn, $table, $artist, $song, $api_key, $station_name, $stati
     }
 
     // First, check if we already have genre data across all column sets
-    //$existing_genre = checkExistingGenre($conn, $artist, $song);
-    //if ($existing_genre) {
-    //    return $existing_genre;
-    //}
+    $existing_genre = checkExistingGenre($conn, $artist, $song);
+    if ($existing_genre) {
+        return $existing_genre;
+    }
     
     // No existing data, so search external APIs in order of preference
     $sources = [
