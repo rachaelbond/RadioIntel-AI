@@ -685,7 +685,7 @@ function getGenre($conn, $table, $artist, $song, $api_key, $station_name, $stati
     }
 
     // First, check if we already have genre data across all column sets
-    $existing_genre = checkExistingGenre($conn, $artist, $song);
+    $existing_genre = checkExistingGenre($conn, $table, $artist, $song);
     if ($existing_genre) {
         return $existing_genre;
     }
@@ -863,13 +863,13 @@ function extractBestGenreFromTags($tags, $artist) {
 /**
  * Check for existing genre data in SQL
  */
-function checkExistingGenre($conn, $artist, $song) {
+function checkExistingGenre($conn, $table, $artist, $song) {
     $stmt = $conn->prepare("
         SELECT 
             main_genre,
             second_genre,
             comparison_genre
-        FROM streams 
+        FROM ".$table."  
         WHERE 
             (main_artist = ? AND main_song = ? AND main_genre IS NOT NULL AND main_genre != '-')
             OR 
