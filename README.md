@@ -386,11 +386,11 @@ R Analysis Engine (radio_analytics.R)
 **GPL 3.0 License** - This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
 ### Commercial Support Available
-**For customization and implementation support for your specific radio station, commercial terms are available. Contact: rachael@rachaelbond.com**
+**For customization and implementation support for your specific radio station, commercial terms are available. Contact: github [at] rlb.me**
 
 ### Attribution
 - **Created by**: Rachael Bond
-- **Contact**: rachael [at] rachaelbond.com  
+- **Contact**: github [at] rlb.me 
 - **Version**: 3.7 (July 2025)
 
 ## 📞 Support & Troubleshooting
