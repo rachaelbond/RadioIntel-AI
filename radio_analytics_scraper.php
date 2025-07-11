@@ -161,7 +161,7 @@ $time = date('H:i');
  * Check SQL database exists and create it if it doesn't
  */
 function ensureTableExists($conn, $table, $debug = false) {
-    // Check if the streams table exists
+    // Check if the analytics table exists
     $result = $conn->query("SHOW TABLES LIKE '".$table."'");
     
     if ($result->num_rows == 0) {
