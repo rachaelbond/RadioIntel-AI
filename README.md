@@ -389,10 +389,9 @@ R Analysis Engine (radio_analytics.R)
 **For customization and implementation support for your specific radio station, commercial terms are available. Contact: rachael@rachaelbond.com**
 
 ### Attribution
-- **Created by**: Dr. Rachael Bond
-- **Contact**: rachael@rachaelbond.com  
+- **Created by**: Rachael Bond
+- **Contact**: rachael [at] rachaelbond.com  
 - **Version**: 3.7 (July 2025)
-- **Originally developed for**: Radio Caroline
 
 ## 📞 Support & Troubleshooting
 
