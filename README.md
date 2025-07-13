@@ -1,4 +1,4 @@
-# Radio Station Listener Analysis System v3.7
+# Radio Station Listener Analysis System v3.8
 
 A comprehensive real-time analytics platform for online radio stations, providing detailed insights into listener behavior, music preferences, and show performance through automated data collection and sophisticated statistical analysis.
 
@@ -9,6 +9,14 @@ This system automatically monitors online radio streams every 5 minutes, collect
 The system consists of two main components:
 - **PHP Data Collector** (`radio_analytics_scraper.php`) - Automated data collection from streaming servers
 - **R Analytics Engine** (`radio_analytics.R`) - Advanced statistical analysis and PDF report generation
+
+## 🆕 What's New in v3.8
+
+- **Changes to Impact and Comparative Statistics**: Now largley uses Z-Scores for impace and comparative statistics. These should be more robust, and resilient to the time-of-day, than the previous percentage based approach
+- **Dynamic PDF Creation**: Changes to how the PDF is dynamically created that offer more flexibility
+- **Weather Impact Analysis**: This is now optional
+- **Stylistic Changes**: More consistent color scheme in the PDF
+- **Bug Squished**: The code now gracefully handles no live vs pre-recorded data
 
 ## 🆕 What's New in v3.7
 
@@ -94,7 +102,7 @@ The system automatically creates a comprehensive analytics table with:
 - **R 4.0+** with package installation capability
 - **Required R Packages**: 
   - Database: `DBI`, `RMariaDB`
-  - Data Processing: `dplyr`, `lubridate`, `tidyr`, `stringr`
+  - Data Processing: `dplyr`, `lubridate`, `tidyr`, `stringr`, `jsonlite`
   - Visualization: `ggplot2`, `scales`, `gridExtra`, `corrplot`
   - Reporting: `knitr`, `rmarkdown`, `kableExtra`
   - Statistical: `forecast`, `glue`
@@ -173,6 +181,7 @@ COMPARISON_STATION_NAME <- "Comparison Station"
 # Analysis Options
 ANALYSE_SECOND_STATION <- "Y"     # Set to "N" to disable
 ANALYSE_COMPARISON_STATION <- "Y" # Set to "N" to disable
+ANALYSE_WEATHER <- "Y"            # Set to "N" to disable
 
 # Report Type Options:
 REPORT_TYPE <- "ALL"              # All available data
