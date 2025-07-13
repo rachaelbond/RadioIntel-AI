@@ -12,7 +12,7 @@ The system consists of two main components:
 
 ## 🆕 What's New in v3.8
 
-- **Changes to Impact and Comparative Statistics**: Now largley uses Z-Scores for impace and comparative statistics. These should be more robust, and resilient to the time-of-day, than the previous percentage based approach
+- **Changes to Impact and Comparative Statistics**: Now largley uses Z-Scores for impact and comparative statistics. These should be more robust, and resilient to the time-of-day, than the previous percentage based approach
 - **Dynamic PDF Creation**: Changes to how the PDF is dynamically created that offer more flexibility
 - **Weather Impact Analysis**: This is now optional
 - **Stylistic Changes**: More consistent color scheme in the PDF
