@@ -1,7 +1,7 @@
 # Radio Station Listener Analysis Script v:3.8
 # Comprehensive analysis of online listener data with new SQL structure
 # (c) Rachael Bond, 2025
-# contact: rachael [at] rachaelbond.com
+# contact: radioanalytics.mjfiz@rlb.me
 #
 # Released under GPL 3.0 :)
 #
