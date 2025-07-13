@@ -400,7 +400,7 @@ R Analysis Engine (radio_analytics.R)
 ### Attribution
 - **Created by**: Rachael Bond
 - **Contact**: radioanalytics.mjfiz@rlb.me 
-- **Version**: 3.7 (July 2025)
+- **Version**: 3.8 (July 2025)
 
 ## 📞 Support & Troubleshooting
 
