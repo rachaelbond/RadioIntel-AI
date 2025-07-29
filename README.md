@@ -1,11 +1,11 @@
-# Radio Station Listener Analysis System v3.8
-
 ## 🎯 v4.0 COMING SOON!
 - **Uses the statistical anlyses of v3.8 to train a ML/AI model**
 - **Autonomous, contextually aware AI DJ**
 - **chatGPT and Claude (Anthropic) integrations to generate AI DJ introductions**
 - **Optimized to hit time marks, usually with < 1 second error**
 - **Easily extensible to integrate with existing playout systems**
+
+# Radio Station Listener Analysis System v3.8
 
 A comprehensive real-time analytics platform for online radio stations, providing detailed insights into listener behavior, music preferences, and show performance through automated data collection and sophisticated statistical analysis.
 
