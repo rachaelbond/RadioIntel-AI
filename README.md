@@ -1,8 +1,9 @@
 ## 🎯 v4.0 COMING SOON!
 - **Uses the statistical anlyses of v3.8 to train a ML/AI model**
-- **Autonomous, contextually aware AI DJ**
+- **Autonomous, contextually aware AI DJ** - Data-driven music selection based on statistical analysis of listener behavior patterns
+- **Intelligent programming decisions** - Music choice grounded in rigorous statistical analysis rather than guesswork
 - **chatGPT and Claude (Anthropic) integrations to generate AI DJ introductions**
-- **Optimized to hit time marks, usually with < 1 second error**
+- **Precision timing optimization** - Usually achieves sub-1 second broadcast accuracy to hit time-marks for commercial breaks etc.
 - **Easily extensible to integrate with existing playout systems**
 
 # Radio Station Listener Analysis System v3.8
