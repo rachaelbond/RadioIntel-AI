@@ -1,6 +1,6 @@
 ## 🚀 v4.0 COMING SOON!
 - **Uses the statistical analyses of v3.8 to train a ML/AI model**
-- **Autonomous, contextually aware AI DJ** - Data-driven music selection based on statistical analysis of listener behavior patterns
+- **Autonomous, contextually aware AI DJ** - Data-driven music selection based on statistical analysis of listener behaviour patterns
 - **Intelligent programming decisions** - Music choice grounded in rigorous statistical analysis rather than guesswork
 - **chatGPT and Claude (Anthropic) integrations to generate AI DJ introductions**
 - **Precision timing optimization** - Usually achieves sub-1 second broadcast accuracy to hit time-marks for commercial breaks etc.
@@ -29,7 +29,7 @@
 |---------|--------------------------|-------------------|-----------------|
 | AI-Driven Programming | ❌ | ❌ | ✅ |
 | Real-time Analytics Foundation | Limited | ❌ | ✅ |
-| Statistical Rigor | ❌ | ❌ | ✅ |
+| Statistical Rigour | ❌ | ❌ | ✅ |
 | Context Awareness | ❌ | ❌ | ✅ |
 | Sub-second Timing | ✅ | ❌ | ✅ |
 | Open Source | ❌ | ✅ | ✅ |
@@ -81,7 +81,7 @@ The system consists of two main components:
 - **Changes to Impact and Comparative Statistics**: Now largley uses Z-Scores for impact and comparative statistics. These should be more robust, and resilient to the time-of-day, than the previous percentage based approach
 - **Dynamic PDF Creation**: Changes to how the PDF is dynamically created that offer more flexibility
 - **Weather Impact Analysis**: This is now optional
-- **Stylistic Changes**: More consistent color scheme in the PDF
+- **Stylistic Changes**: More consistent colour scheme in the PDF
 - **Bug Squished**: The code now gracefully handles no live vs pre-recorded data
 
 ## 🆕 What's New in v3.7
