@@ -116,7 +116,7 @@ PLAYOUT_TARGET <- "M3U"
 
 REALTIME_UPDATE_ENABLED <- TRUE
 USE_TIME_MARKS <- TRUE
-TIME_MARK_BLOCK_LENGTH <- 29 # In minutes (Time block including commercials or news)
+TIME_MARK_BLOCK_LENGTH <- 29 # In minutes (Time block excluding commercials or news)
 CROSS_FADE_IN <- 0 # Seconds of cross-fade at start of track. Can use the start and fade times from a playout system DB
 CROSS_FADE_OUT <- 0 # Seconds of cross-fade at end of track. Can use the start and fade times from a playout system DB
 INTO_BREAK_BUFFER <- 10 # Seconds to leave for into-break message, to be dynamically allocated when needed to help account for playout system drift
