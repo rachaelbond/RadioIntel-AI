@@ -55,11 +55,11 @@ Real-time Analytics → AI Programming → Precision Playout
 ### **Daily Performance & Temporal Analysis**
 ![Daily Listener Trends](images/radio_dailyListenerPatterns.png)  
 ![Daily Performance Heatmap](images/radio_dailyListenerChangeHeatMap.png)
-*Advanced temporal analysis revealing hour-by-hour and day-by-day performance patterns with statistical significance testing. Identifies optimal programming windows and audience behavior cycles.*
+*Advanced temporal analysis revealing hour-by-hour and day-by-day performance patterns. Identifies optimal programming windows and audience behavior cycles.*
 
 ### **Genre Impact & Music Intelligence**
 ![Genre Impact Analysis](images/radio_genreImpact.png)
-*Sophisticated statistical analysis quantifying which musical genres attract or repel listeners, with confidence intervals and significance testing for evidence-based music policy development.*
+*Sophisticated statistical analysis quantifying which musical genres attract or repel listeners, for evidence-based music policy development.*
 
 ### **Presenter Performance Analytics**
 ![DJ Musical Preferences](images/radio_djGenrePreferences.png)
