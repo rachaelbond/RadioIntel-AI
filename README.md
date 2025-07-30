@@ -354,7 +354,7 @@ TTS_SERVICE <- "google"  # for voice synthesis
 ### **5. Initialize and Run**
 ```r
 # Start R and load the system
-source("radio_intel.R")
+source("radiointel-ai.R")
 
 # Initialize (first time only)
 validate_config()
