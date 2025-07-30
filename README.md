@@ -280,6 +280,7 @@ The AI considers multiple data streams simultaneously:
 - **R 4.0+** with package installation capability for AI engine
 - **MariaDB/MySQL 5.7+** for data storage and analysis
 - **LaTeX distribution** (optional, for PDF reporting)
+- **ffmpeg** for music file analysis
 
 ### **Required R Packages**
 Automatically installed on first run:
