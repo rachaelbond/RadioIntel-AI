@@ -194,7 +194,7 @@ Generated Files:
 | **Multi-dimensional Analysis** | ❌ | ❌ | ✅ |
 | **Predictive Modeling** | ❌ | ❌ | ✅ |
 | **Context-Aware Decisions** | ❌ | ❌ | ✅ |
-| **Sub-minute Timing Precision** | ✅ | ❌ | ✅ |
+| **Sub-second Timing Precision** | ✅ | ❌ | ✅ |
 | **Professional PDF Reports** | Limited | ❌ | ✅ |
 | **Cross-station Benchmarking** | ❌ | ❌ | ✅ |
 | **Easily Extensible** | ❌ | ✅ | ✅ |
